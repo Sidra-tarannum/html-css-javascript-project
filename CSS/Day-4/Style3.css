@@ -1,0 +1,23 @@
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.box{
+width: 200px;
+height: 100px;
+margin: 20px;
+padding: 15px;
+border: 5px solid black;
+
+}
+
+.box1{
+    width: 50px;
+    height: 50px;
+    border: 100px;
+border-radius: 50px 50px 50px 50px;
+background-color: aqua;
+overflow-y: scroll;
+padding: 50px;
+}

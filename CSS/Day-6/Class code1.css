@@ -1,0 +1,26 @@
+#parent{
+
+    height: 500vh;
+    width: 500vw;
+    background-color: #eff0f3;
+    padding: 40px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 15px red;
+    color: white;
+    margin: 20px;
+}
+img{
+width: 100px;
+border: 2px solid black;
+border-radius: 8px;
+margin: 20px;
+}
+.child{
+width: 400px;
+background-image:url("https://tse4.mm.bing.net/th/id/OIP.uAKkOYamK-K81I4jT833rAHaE7?r=0&pid=Api&P=0&h=180.jpg");
+box-shadow: 0px 0px 25px black;
+margin: 20px;
+box-shadow: 10px 10px 5px rgb(221, 19, 19);
+}
+
+

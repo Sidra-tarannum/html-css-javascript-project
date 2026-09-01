@@ -1,0 +1,23 @@
+body{
+
+    background-color: #574646;
+    padding: 50px;
+    margin: 50px;
+}
+h1{
+font-size: 100px;
+font-weight: bold;
+}
+.link{
+color: blue;
+font-size: 25px;
+}
+.rel{
+font-weight: bold ;
+color: white;
+
+}
+.Home{
+color: orangered;
+
+}

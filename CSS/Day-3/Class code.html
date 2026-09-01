@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="unique-header">
+        <h1>Welcome to CSS Selectors</h1>
+        <p>This header has a unique ID.</p>
+    </header>
+
+    <section>
+        <div class="card">
+            <h2>Student Card 1</h2>
+            <p class="highlight">This text is important .</p>
+            <button>View Profile</button>
+        </div>
+
+        <div class="card">
+            <h2>Student Card 2</h2>
+            <p class="highlight" >This is normal text.</p>
+            <button>View Profile</button>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="container">
+        <h3 class="label">Testing Area</h3>
+        
+        <p>I am a direct child of .container (Child & Descendant)</p> 
+        
+        <div>
+            <p>I am inside a div, inside .container (Descendant only)</p>
+        </div>
+
+        <h3 class="label">Sibling Test Header</h3>
+        <p>I am immediately after the H3 (Adjacent Sibling)</p>
+        <p>I am the second paragraph (Not adjacent)</p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3 class="llb">Form Styling (Attribute Selectors)</h3>
+        <form>
+            <label>Username:</label>
+            <input type="text" placeholder="Enter name"> <br><br>
+            
+            <label>Password:</label>
+            <input type="password" placeholder="Enter password"> <br><br>
+            
+            <label>Subscribe:</label>
+            <input type="checkbox" checked>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3 class="item">List Logic (:nth-of-type)</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+
+        <h4>The Story (::first-letter & ::selection)</h3>
+        <p class="story">
+            Once upon a time, there was a developer learning CSS. 
+            They selected this text to see the custom highlight color!
+            (Try highlighting this text with your mouse).
+        </p>
+    </section>
+</body>
+</html>

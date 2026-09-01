@@ -1,0 +1,116 @@
+*{
+
+margin: 5px;
+padding: 5px;
+
+}
+body{
+background-color: lightcoral;
+padding: 20px;
+margin-bottom:20px ;
+border:5px solid #8B4513;
+box-sizing: border-box;
+}
+
+h1{
+font-weight: bold;
+font-size: 100px;
+
+}
+.Home-page{
+
+    text-align: right;
+}
+.hero-section{
+padding: 30px;
+border:2px solid #8B4513 ;
+margin:20px ;
+}
+.header{
+font-weight: 600;
+font-size: 100px;
+}
+.img{
+width:180px ;
+border: 100px;
+}
+.tag{
+width: 200px;
+border:100px ;
+height: 200px;
+}
+input[type="Email"]{
+
+border: 2px solid darkred;
+
+}
+input[type="number"]{
+
+border: 2px solid darkred;
+
+}
+input[type="Address"]{
+
+    border: 2px solid darkred;
+}
+ input[type="Email"]:hover{
+
+    background-color: lightgray;
+}
+input[type="number"]:hover{
+
+background-color: lightgrey;
+
+}
+
+input[type="Address"]:hover{
+
+background-color: lightgrey;
+
+}
+      h2{
+font-size: 50px;
+font-weight: bold;
+text-decoration: solid underline;
+  }
+
+.info{
+text-align: center;
+color: brown;
+font-size: 25px;
+}
+
+
+
+
+/* 
+ */
+
+
+ footer {
+    
+    color: darkred;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-contact {
+    margin: 15px 0;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.copyright {
+    border-top: 1px solid white;
+    padding-top: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}

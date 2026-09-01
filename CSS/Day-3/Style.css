@@ -1,0 +1,81 @@
+*{
+margin: 5px;
+padding: 5px;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #dfe8df;
+    padding: 5px;
+}
+#unique-header{
+color: rgb(7, 25, 227);
+
+}
+h2{
+color: red;
+font-size: 50px;
+}
+.highlight{
+
+color: blueviolet
+
+}
+.label{
+
+color: brown;
+font-size: 50px;
+
+}
+.container p{
+    color: rgb(221, 132, 15);
+}
+input[type="text"]{
+    border: 2px solid red;
+
+}
+input[type="password"]{
+
+border: 2px solid red ;
+
+}
+input[type="checkbox"]{
+accent-color: lightgreen;
+
+
+}
+input[type="text"]:hover{
+
+background-color: lightgray
+
+}
+input[type="password"]:hover{
+
+    background-color: lightgray;
+}
+.llb{
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: 400;
+}
+.item{
+color: tomato;
+}
+li:nth-of-type(even){
+
+background-color: #f0f0f0;
+}
+h4{
+color: orange;
+}
+.story::first-letter{
+
+font-size: 30px;
+font-weight: bold;
+color: darkred;
+
+}
+p::selection{
+
+color: yellowgreen
+
+}

@@ -1,0 +1,21 @@
+body{
+background-color: lightgoldenrodyellow;
+
+}
+h1{
+font-weight: bold;
+font-size: 100px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: underline;
+}
+button{
+background-color: blueviolet;
+
+border: 100px;
+
+}
+.btn{
+background-color: blue;
+
+
+}

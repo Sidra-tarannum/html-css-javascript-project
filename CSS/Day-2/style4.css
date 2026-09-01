@@ -1,0 +1,21 @@
+h1{
+text-align: center;
+font-weight: 500;
+color: red;
+background-color: black;
+}
+article{
+text-align: justify;
+color: rgb(00, green, 00);
+background-color: aliceblue;
+}
+a{
+color: rgb(red, green, blue);
+background-color: bisque;
+
+}
+img{
+width: 100px;
+border-radius: 100px;
+
+}

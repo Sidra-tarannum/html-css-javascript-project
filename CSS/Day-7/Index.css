@@ -1,0 +1,30 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+#Container{
+background-color: chartreuse;
+width: 1000px;
+height:1000px;
+justify-content: center;
+}
+h1{
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+display: flex;
+}
+#nav-bar{
+
+background-color: white;
+position: sticky;
+}
+.logo{
+width: 70px;
+border-radius: 45%;
+position: absolute ;
+top: 10px;
+
+}

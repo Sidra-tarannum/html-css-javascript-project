@@ -1,0 +1,76 @@
+body{
+background-color: #888;
+font-size: 25px;
+font-weight: 200;
+font-family: sans-serif;
+}
+h1{
+color: darkorchid;
+font-size: 100px;
+font-weight: bold;
+display: inline;
+text-align: center;
+text-decoration: solid underline black;
+
+
+}
+#google{
+display: block;
+border: 2px solid darkgreen;
+padding: 25px;
+margin: 25px;
+text-align: justify;
+}
+.the{
+    display: block;
+    background-color: blue;
+}
+.of{
+background-color: red;
+
+}
+.at{
+
+    background-color: blue;
+}
+#parent {
+color: blueviolet;
+background-color: lightcoral;
+height: 400px;
+width: 400px;
+border: 1px solid brown;
+margin: 50px;
+padding: 25px;
+}
+#child{
+border:  1px solid brown;
+height: 300px;
+width: 300px;
+margin: 25px;
+padding: 25px;
+}
+span{
+display: inline-block;
+border: 2px solid burlywood;
+height: 100px;
+width: 100px;
+padding: 20px;
+margin: 20px;
+}
+p{
+color: black;
+border: 5px solid lawngreen;
+padding: 50px;
+margin: 100px;
+}
+form{
+    background-color: #888;
+}
+input{
+
+    background-color: inherit;
+}
+button{
+
+    background-color: inherit;
+}
