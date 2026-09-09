@@ -1,0 +1,21 @@
+body{
+background-color: brown;
+
+
+
+}
+
+
+
+
+.new-task-input{
+
+    border: none;
+    margin: 10px;
+    box-shadow: 5px 5px 2px black;
+}
+
+button{
+
+    margin: 10px;
+}
