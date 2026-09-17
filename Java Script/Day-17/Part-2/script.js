@@ -51,7 +51,7 @@ async function main() {
       titleelem.innerHTML = "TITLE : " + element?.title;
 
       const pricepara = document.createElement("p");
-      pricepara.innerText = "PRICE :" + "$ " + element?.price;
+      pricepara.innerText = "PRICE : " + " $ " + element?.price;
 
       const quantitypara = document.createElement("p");
       quantitypara.innerText = "QUANTITY : " + element?.quantity;
